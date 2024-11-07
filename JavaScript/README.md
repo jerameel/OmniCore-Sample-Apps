@@ -22,7 +22,7 @@ Please follow the [installation](#installation) instruction and execute the foll
 ```javascript
   const OmniCoreModelAndStateManagementApi = require('omni_core_model_and_state_management_api');
 
-  let defaultClient = OmnicoreModelAndStateManagementApi.ApiClient.instance;
+  let defaultClient = OmniCoreModelAndStateManagementApi.ApiClient.instance;
   defaultClient.basePath = 'https://api.korewireless.com'
   // Configure API key authorization: apiKey
   let apiKey = defaultClient.authentications['apiKey'];
@@ -31,7 +31,7 @@ Please follow the [installation](#installation) instruction and execute the foll
   let bearerAuth = defaultClient.authentications['bearerAuth'];
   bearerAuth.accessToken = 'YOUR ACCESS TOKEN'
 
-  let apiInstance = new OmnicoreModelAndStateManagementApi.RegistryApi();
+  let apiInstance = new OmniCoreModelAndStateManagementApi.RegistryApi();
   let subscriptionId = 'YOUR SUBSCRIPTION ID'; // String | Subscription ID
   let opts = {
     'pageNumber': 1, // Number | Page Number
